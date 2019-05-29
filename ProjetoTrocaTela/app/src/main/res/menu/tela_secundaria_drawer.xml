@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/tela_principal"
+            android:icon="@drawable/ic_filter_1_black_24dp"
+            android:title="Tela Principal" />
+        <item
+            android:id="@+id/tela_secundaria"
+            android:icon="@drawable/ic_filter_2_black_24dp"
+            android:title="Tela Secundária" />
+    </group>
+
+</menu>
